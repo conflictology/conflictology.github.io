@@ -1,0 +1,64 @@
+@font-face {
+  font-family: "pfdintextcondpro-light";
+  font-style: normal;
+  font-weight: normal;
+  src: url("./../fonts/pfdintextcondpro-light-web.eot?") format("eot"), url("./../fonts/pfdintextcondpro-light-web.svg#pfdintextcondpro-light") format("svg"), url("./../fonts/pfdintextcondpro-light-web.ttf") format("truetype"), url("./../fonts/pfdintextcondpro-light-web.woff") format("woff"); }
+
+@font-face {
+  font-family: "pfdintextcondpro-medium";
+  font-style: normal;
+  font-weight: normal;
+  src: url("./../fonts/pfdintextcondpro-medium-web.eot?") format("eot"), url("./../fonts/pfdintextcondpro-medium-web.svg#pfdintextcondpro-medium") format("svg"), url("./../fonts/pfdintextcondpro-medium-web.ttf") format("truetype"), url("./../fonts/pfdintextcondpro-medium-web.woff") format("woff"); }
+
+* {
+  box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%; }
+
+.main-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: nowrap;
+      -ms-flex-wrap: nowrap;
+          flex-wrap: nowrap;
+  height: 100%; }
+
+.navbar {
+  width: 350px;
+  height: 100%;
+  overflow: auto;
+  font-family: 'pfdintextcondpro-light';
+  font-size: 17px;
+  line-height: 21px; }
+  .navbar__title {
+    background: #2980B9;
+    padding: 30px 20px;
+    color: #fcfcfc; }
+    .navbar__title h1 {
+      padding: 0;
+      margin: 0;
+      font-size: 32px; }
+  .navbar__points {
+    background: #4e4a4a;
+    padding: 10px 0; }
+  .navbar__point {
+    padding: 4px 40px 4px 20px; }
+    .navbar__point:hover {
+      background: #838383; }
+    .navbar__point.current {
+      background: #fcfcfc;
+      color: #404040 !important; }
+  .navbar a {
+    color: #fcfcfc !important;
+    text-decoration: none; }
+
+.frame {
+  width: 100%;
+  height: 100%; }
+
+/*# sourceMappingURL=style.css.map */
